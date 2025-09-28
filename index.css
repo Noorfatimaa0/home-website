@@ -1,0 +1,455 @@
+                         /*header*/
+.box {
+	background: white;
+
+	
+	}
+.logo {
+
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4px;
+
+  color: #cb9e61;
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px 15px 10px;
+
+}
+
+.tagline {
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  margin-top: 2px;
+  
+
+  color: #8c8c8c;
+  text-align: center;
+ 
+}
+.main-top{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	color: #8c8c8c;
+	margin-top: 20px;
+}
+
+
+
+.main-top ul{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	list-style: none;
+	text-decoration-line: none;
+	border: none;
+	color: #8c8c8c;
+
+}
+.divider {
+
+	color:#8c8c8c ;
+} 
+
+.search-box {
+	display: flex;
+	align-items: center;
+    padding: 4px 8px;
+    border: 1 px solid grey;
+}
+
+.discount{
+         display: flex;
+         text-align: center;
+         justify-content: center;
+         font-size: 12px;
+         color: #cb9e61;
+         margin-top: 10px;
+}
+                             /*Image*/
+
+.image img{
+	position: relative;
+  
+  display: flex;
+  margin: 40px;
+  max-width: 1100px;
+  align-items: center;
+	width: 100%%;
+	padding: 0px 40px 40px 40px;
+
+}
+
+.image-signup{
+	        position: absolute;
+	        transform: translate(-20%,320%);
+	        bottom: 5%;
+	        right: 55;
+		    padding: 12px;
+		   gap: 6px;
+
+}
+.image-signup {
+	            padding: 10px;
+              border: 1px solid #ccc;
+              
+}
+
+.image-signup button{
+	      background-color: #cb9e61;
+			  color: white;
+			  border: none;
+			  padding: 10px;
+			  cursor: pointer;
+			  width: 100%;
+
+}
+                                              /*GRID*/
+.tips{
+	  padding: 20px 5%;
+    text-align: center;
+}
+
+.tips h2{
+
+		  font-family: "Libre Baskerville", serif;
+		  font-weight: 400;
+		  font-style: normal;
+		  font-size: 20px;
+		  margin-bottom: 30px;
+		  color: #cb9e61;
+
+}
+
+.grid-1{
+	
+	
+	gap: 30px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+
+
+
+	
+  
+  
+}
+.grid-2{
+	display: flex;
+	gap: 30px;
+  margin-inline: auto;
+  padding-top: 20px;
+  justify-content: center;
+
+  
+}
+.grid-3{
+
+	display: flex;
+	gap: 30px;
+  margin-inline: auto;
+  padding-top: 20px;
+  justify-content: center;
+
+  
+
+  
+}
+
+.grid img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.para{
+	text-align: center;
+	color: #8c8c8c;
+	font-size: 10px;
+	display: inline-block;
+	width: 700px;
+}
+
+/*Gift table */
+
+.gift-wrapper {
+  position: relative;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.gift-img{
+	width: 100%;
+  display: block;
+  
+}
+
+.gift{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px ;
+  line-height: 1.4;
+  display: flex;
+  color:  #cb9e61;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  right: 35%;
+  margin-top: 30px;
+
+}
+
+.gift-form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+.gift-form input,
+.gift-form select {
+  padding: 10px;
+  border: 1px solid #ccc; 
+}
+
+.gift-form button {
+  background-color: #cb9e61;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.gift-form button:hover {
+  background-color: #b6864f;
+}
+
+.gift-form p{
+	color: #979797;
+	font-size: 10px;
+}
+
+.footer{
+    background: #8c8c8c;
+    height: 300px;
+    color: #fff;
+    padding: 40px 8%;
+    margin: 70px;
+    display: flex;
+    gap: 12%;
+
+}
+
+.footer-links{
+	list-style: none;
+	font-size: 15px;
+	line-height: 1.8;
+  gap: 5;
+}
+
+.news p{
+	 font-size: 20px;
+    margin-bottom: 12px;
+    gap: 5%;
+
+
+}
+
+.news input{
+	  width: 95%;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+  }
+
+
+.news button  {
+	      background-color: #cb9e61;
+			  color: white;
+			  border: none;
+			  padding: 10px;
+			  cursor: pointer;
+			  width: 100%;
+}
+
+
+.heading h3 {
+
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.heading p{
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+
+}
+
+
+                                             /*Responsive*/
+
+
+                                             /* For tablets (768px and below) */
+@media (max-width: 768px) {
+  .main-top {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .main-top ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .search-box {
+    margin-top: 10px;
+  }
+
+  .image img {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+
+  .image-signup {
+    transform: translate(-10%, 280%);
+    width: 80%;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid img {
+    width: 90%;
+  }
+
+  .para {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .gift-form {
+    width: 90%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 5%;
+    height: auto;
+  }
+
+  .footer-links ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .news p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .heading h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .heading p {
+    text-align: center;
+  }
+}
+
+                                 /*For phone*/
+@media (max-width: 480px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .tagline {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .main-top ul {
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  .search-box input {
+    width: 100px;
+  }
+
+  .discount {
+    font-size: 10px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .tips h2 {
+    font-size: 16px;
+  }
+
+  .grid img {
+    width: 100%;
+  }
+
+  .para {
+    font-size: 10px;
+  }
+
+  .gift h3 {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .gift-form {
+    width: 95%;
+  }
+
+  .footer {
+    margin: 30px 10px;
+  }
+
+  .news p {
+    font-size: 14px;
+  }
+
+  .heading h3 {
+    font-size: 24px;
+  }
+
+  .heading p {
+    font-size: 13px;
+  }
+}
